@@ -1,0 +1,15 @@
+#include<iostream>
+#include<vector>
+#include<cstdio>
+#include<cmath>
+using namespace std;
+
+int main()
+{
+	int i,j;
+	scanf("%d",&i);
+	scanf("%d",&j);
+	cout<<i<<"  "<<j;
+	return 0;
+}
+	
