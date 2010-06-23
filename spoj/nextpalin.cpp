@@ -136,40 +136,7 @@ int main()
 		}
 		
 		cout<<sssE<<"  :  "<<sssO;
-		/*
-		if(len%2==1)
-		sss = sss + s[len/2] + genpalin(sss);
-		else
-		sss = sss + genpalin(sss);
 		
-		cout<<sss<<endl;return 0;
-		if(sss>orig){cout<<sss<<"\n";continue;}
-		else{
-		char *p;
-		if(len%2==0)
-		{p = increment(s,len/2);
-		if(strlen(p)%2==1)
-		{
-			string sss2(p,p+ (strlen(p))-1);
-			
-			//cout<<strlen(p)<<"  :"<<p[strlen(p)-1];return 0;
-			
-			sss2 = sss2 + p[strlen(p)-1] + genpalin(sss2);
-			
-			cout<<sss2<<"\n";continue;
-		}
-		}
-		else
-		p = increment(s,len/2+1);
-		//cout<<p<<endl;		
-		string sss2(p,p+ (strlen(p))/2);
-		if(len%2==1)
-		sss2 = sss2 + p[len/2] + genpalin(sss2);
-		else
-		sss2 = sss2 + genpalin(sss2);
-		cout<<sss2<<"\n";;	
-		}
-		*/
 	}
 		
 	return 0;	
